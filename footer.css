@@ -1,7 +1,7 @@
 /*________________Footer____________________*/
 
 .icons{
-    width: 60px;
+    width: 40px;
    
     
 }
@@ -15,7 +15,7 @@ footer{
     z-index: 3;
     margin-top: auto;
     background-color: white;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
