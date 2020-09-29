@@ -1,5 +1,6 @@
     body {
         font-family: 'Ropa Sans', sans-serif;
+        background-color: black;
     }
     /*________________Header____________________*/
     
@@ -16,7 +17,6 @@
         text-decoration: none;
         color: white;
     }
-    
     /*_________________Nav______________________*/
     
     nav {
