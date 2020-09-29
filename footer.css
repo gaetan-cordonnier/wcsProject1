@@ -1,3 +1,5 @@
+/*________________Footer____________________*/
+
 .icons{
     width: 60px;
    
@@ -9,12 +11,15 @@ body{
     flex-direction: column;
 }
 footer{
+    position: relative;
+    z-index: 3;
     margin-top: auto;
-    background-color: blueviolet;
+    background-color: white;
     padding: 30px;
     display: flex;
     justify-content: center;
 }
+
 .iconcontainer{
     width: 30%;
     display: flex;
