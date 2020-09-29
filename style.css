@@ -1,5 +1,6 @@
 body {
     background-color: black;
+<<<<<<< HEAD
     font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -20,6 +21,12 @@ a {
 }
 
 .logo {}
+=======
+}
+
+
+/*________________Header____________________*/
+>>>>>>> e0fd0adeb6961e047cb83cbfe5ef13cccca2f498
 
 
 /*_________________Nav______________________*/
@@ -42,7 +49,6 @@ li {
     font-size: 1.5em;
 }
 
-
 /*_________________Main_____________________*/
 
 main {
@@ -52,6 +58,7 @@ main {
     background-color: white;
 }
 
+<<<<<<< HEAD
 
 /*________________Footer____________________*/
 
@@ -78,3 +85,6 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+=======
+/*________________Footer____________________*/
+>>>>>>> e0fd0adeb6961e047cb83cbfe5ef13cccca2f498
