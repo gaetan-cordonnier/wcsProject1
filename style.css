@@ -1,18 +1,51 @@
 body {
-    background-color: white;
+    background-color: black;
 }
 
 /*________________Header____________________*/
 
+header {
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    height: 15%;
+    background-color: red;
+}
 
+
+.logo {
+ 
+
+}
 
 /*_________________Nav______________________*/
 
+nav {
 
+    width: auto;
+    height: 15%;
+    display: flex;
+    background-color: yellow;
+}
 
+ul {
+    display: flex;
+    color: white;
+    background-color: teal;
+ }
+
+ li {
+
+     margin-left: 5em;
+ }
 /*_________________Main_____________________*/
 
-
+main {
+    border: solid 3px white;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
 
 /*________________Footer____________________*/
 
