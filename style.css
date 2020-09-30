@@ -9,28 +9,25 @@
        color: white;
    }
    
-   img {
-       border-width: 0px;
-       border: 0px;
-       padding-bottom: 0px;
-   }
-   
-   #aboutMain {
-       margin-top: 150px;
-       width: 100vw;
-       height: 50vw;
-       border: 1px blue dotted;
-   }
-   
-   #aboutP {
-       color: white;
-       width: 100vw;
-       height: 50vw;
-   }
-   
    .aboutDiv {
        display: flex;
-       flex: row;
+       flex-wrap: wrap;
+   }
+   
+   #portrait {
+       width: 50%;
+   }
+   
+   .texte {
+       width: 50%;
+       height: 400px;
+   }
+   
+   #pres {
        color: white;
-       border: 1px red dotted;
+   }
+   
+   .aboutpict {
+       text-align: center;
+       width: 33%;
    }
