@@ -1,7 +1,7 @@
 /*________________Footer____________________*/
 
 .icons{
-    width: 40px;dev
+    width: 40px;
 }
 body{
     min-height: 100vh;
@@ -9,7 +9,10 @@ body{
     flex-direction: column;
 }
 footer{
-    position: relative;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
     z-index: 3;
     margin-top: auto;
 
@@ -17,6 +20,8 @@ footer{
     padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    
 }
 
 .iconcontainer{

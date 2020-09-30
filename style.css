@@ -1,6 +1,5 @@
    body {
         font-family: 'Ropa Sans', sans-serif;
-        background-color: black;
     }
 
     /*_________________Main_____________________*/
@@ -10,7 +9,7 @@
         z-index: 1;
         width: 100%;
         height: 50%;
-        background-image: url("/public/main.jpg");
+       
     }
     /*________________Footer____________________*/
 
