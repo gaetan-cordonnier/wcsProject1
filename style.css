@@ -1,16 +1,18 @@
    body {
-        font-family: 'Ropa Sans', sans-serif;
-        background-color: black;
-    }
-
-    /*_________________Main_____________________*/
-    
-    main {
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        height: 50%;
-        background-image: url("/public/main.jpg");
-    }
-    /*________________Footer____________________*/
-
+       font-family: 'Ropa Sans', sans-serif;
+       background-color: black;
+   }
+   /*_________________Main_____________________*/
+   
+   main {
+       position: absolute;
+       z-index: 1;
+       width: 100%;
+       height: 50%;
+       background-image: url("/public/main.jpg");
+   }
+   
+   a {
+       text-decoration: none;
+       color: white;
+   }
