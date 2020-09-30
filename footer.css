@@ -1,0 +1,28 @@
+/*________________Footer____________________*/
+
+.icons{
+    width: 40px;
+   
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    position: relative;
+    z-index: 3;
+    margin-top: auto;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconcontainer{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
