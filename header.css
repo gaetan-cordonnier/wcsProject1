@@ -1,0 +1,30 @@
+/*________________Header____________________*/
+
+header {
+    position: absolute;
+    z-index:2;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 15%;
+}
+
+/*_________________Nav______________________*/
+
+nav {
+
+    width: auto;
+    height: 15%;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    color: white;
+ }
+
+ li {
+    font-size: 1.5em;
+    text-transform: uppercase;
+     margin-left: 5em;
+ }
