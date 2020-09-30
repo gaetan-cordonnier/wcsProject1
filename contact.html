@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
- <img src="./photos/camera_picture.jpg" class="bg-contact" alt="picture"/>
+    <main class="bg-contact">
+      <form method="post" id="contact_form">
+        <span id="msg_erreur"></span>
+        <input type="text" name="name" placeholder="Name *" class="input_form" required/>
+        <input type="text" name="lastname" placeholder="lastname *" class="input_form" required/>
+        <input type="email" name="email" placeholder="Email *" class="input_form" required/>
+        <textarea  name="message" placeholder="Message *" class="input_form" required></textarea>
+        <input type="submit" name="nom" value="envoyer">
+      </form>
+    </main>
     <footer>
         <div class = "iconcontainer">
           <a href="https://www.facebook.com/" title="" id=""  target="">

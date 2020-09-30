@@ -1,0 +1,11 @@
+.bg-contact{
+    background-image: url('./photos/camera_picture.jpg');
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    z-index: 1;
+}
