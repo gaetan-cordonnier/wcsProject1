@@ -1,9 +1,7 @@
 /*________________Footer____________________*/
 
 .icons{
-    width: 40px;
-   
-    
+    width: 40px;dev
 }
 body{
     min-height: 100vh;
@@ -14,6 +12,7 @@ footer{
     position: relative;
     z-index: 3;
     margin-top: auto;
+
     background-color: white;
     padding: 10px;
     display: flex;
