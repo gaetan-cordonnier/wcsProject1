@@ -5,18 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
+    <header>
+      <div class="logo">
+          <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo"></a>
+      </div>
+      <nav>
+          <ul>
+              <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
+              <li><a id="LinkAbout" href="about.html">About</a></li>
+              <li><a id="LinkContact" href="contact.html">Contact</a></li>
+          </ul>
+
+      </nav>
+    </header>
     <main class="bg-contact">
       <form method="post" id="contact_form">
-        <span id="msg_erreur"></span>
-        <input type="text" name="name" placeholder="Name *" class="input_form" required/>
-        <input type="text" name="lastname" placeholder="lastname *" class="input_form" required/>
-        <input type="email" name="email" placeholder="Email *" class="input_form" required/>
-        <textarea  name="message" placeholder="Message *" class="input_form" required></textarea>
-        <input type="submit" name="nom" value="envoyer">
+        <div class="section-inputs">
+          <div class="section-form">
+          <span id="msg_erreur"></span>
+          <input type="text" name="name" placeholder="Name *" class="input_form" required/>
+          <input type="text" name="lastname" placeholder="lastname *" class="input_form" required/>
+          <input type="email" name="email" placeholder="Email *" class="input_form" required/>
+        </div>
+        <div class="section-form">
+          <textarea  name="message" placeholder="Message *" class="input_form textarea" required></textarea>
+        </div>
+        </div>
+          <span class="required">Required fields (*)</span>
+          <div class="contact-button">
+          <input type="submit" name="nom" value="Send" class="button-form">
+        </div>
+        
       </form>
     </main>
     <footer>
