@@ -19,12 +19,15 @@
    }
    
    .texte {
-       width: 50%;
+       width: 49%;
        height: 400px;
+       border: 1px red dotted;
    }
    
    #pres {
        color: white;
+       font-size: 2em;
+       text-align: left;
    }
    
    .aboutpict {
