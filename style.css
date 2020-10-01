@@ -3,12 +3,6 @@
    }
    /*_________________Main_____________________*/
    
-   a {
-       text-decoration: none;
-       color: white;
-<<<<<<< HEAD
-   }
-   
    img {
        border-width: 0px;
        border: 0px;
@@ -34,6 +28,5 @@
        color: white;
        border: 1px red dotted;
    }
-=======
-   }
->>>>>>> 617191530685e69724f2c6fe70af963efaa8c0ce
+   
+
