@@ -3,6 +3,7 @@
    }
    /*_________________Main_____________________*/
    
+<<<<<<< HEAD
    img {
        border-width: 0px;
        border: 0px;
@@ -30,3 +31,9 @@
    }
    
 
+=======
+   a {
+       text-decoration: none;
+       color: white;
+   }
+>>>>>>> 5a573ed8a9ef98f1720ade8415051dd025731356
