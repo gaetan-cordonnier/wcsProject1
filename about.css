@@ -1,0 +1,25 @@
+   .aboutDiv {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   #portrait {
+       width: 50%;
+   }
+   
+   .texte {
+       width: 49%;
+       height: 400px;
+       border: 1px red dotted;
+   }
+   
+   #pres {
+       color: white;
+       font-size: 2em;
+       text-align: left;
+   }
+   
+   .aboutpict {
+       text-align: center;
+       width: 33%;
+   }
