@@ -1,3 +1,4 @@
+/* slider//////////////////////////////////////////////*/
 
 .imgSlider{
     width: 100%;
@@ -46,7 +47,12 @@ div#slider {
     left: 0;
     text-align: left;
     animation: 25s slidy infinite alternate;
-  }  
+
+  } 
+  
+  /*   galerie d'images////////////////////////////////////*/
+
+
   .bloc-container {
     display: grid;
     text-align: center;
@@ -62,11 +68,13 @@ div#slider {
       height: 100%;
       
   }
-  /*@media screen and (min-width: 768px) and (max-width: 992px) {
-    .block {
-        width: 100%;
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .bloc-container{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
     }
- }*/
+ }
 
  
  
