@@ -6,34 +6,4 @@
    a {
        text-decoration: none;
        color: white;
-<<<<<<< HEAD
    }
-   
-   img {
-       border-width: 0px;
-       border: 0px;
-       padding-bottom: 0px;
-   }
-   
-   #aboutMain {
-       margin-top: 150px;
-       width: 100vw;
-       height: 50vw;
-       border: 1px blue dotted;
-   }
-   
-   #aboutP {
-       color: white;
-       width: 100vw;
-       height: 50vw;
-   }
-   
-   .aboutDiv {
-       display: flex;
-       flex: row;
-       color: white;
-       border: 1px red dotted;
-   }
-=======
-   }
->>>>>>> 617191530685e69724f2c6fe70af963efaa8c0ce
