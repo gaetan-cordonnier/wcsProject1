@@ -1,6 +1,6 @@
 /*________________Header____________________*/
 
-header {
+header{
     position: absolute;
     z-index:2;
     display: flex;
@@ -11,19 +11,19 @@ header {
 
 /*_________________Nav______________________*/
 
-nav {
+nav{
 
     width: auto;
     height: 15%;
     display: flex;
 }
 
-ul {
+ul{
     display: flex;
     color: white;
  }
 
- li {
+ li{
     font-size: 1.5em;
     text-transform: uppercase;
      margin-left: 5em;
