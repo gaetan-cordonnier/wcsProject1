@@ -1,14 +1,16 @@
 /*________________Footer____________________*/
 
-.icons{
+.icons {
     width: 40px;
 }
-body{
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-footer{
+
+footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -20,18 +22,24 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
 }
 
-.iconcontainer{
+.iconcontainer {
     width: 30%;
     display: flex;
     justify-content: space-around;
-    
 }
-@media screen and (min-width: 360px) and (max-width: 740px) {
-  footer{
-      position: fixed;
-      bottom: 0px;
-      width: 100 vw;
-  }
+
+@media screen and (min-width: 300px) and (max-width: 740px) {
+    footer {
+        position: fixed;
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .icons {
+        width: 35px;
+        padding: 0px 45px 0px 45px;
+    }
+}
