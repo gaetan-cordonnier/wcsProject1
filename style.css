@@ -1,41 +1,38 @@
    body {
-    font-family: 'Ropa Sans', sans-serif;
-}
-
-    /*_________________Main_____________________*/
-.topMain {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px red;
-}
-
-main img {
-    width: 100%;
-}
-
-
-#text {
-    color: white;
-    padding: 1rem;
-    background-color: rgb(80, 80, 80);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.2rem;
-}
-
-.picturesGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    order: solid 1px green;
-    width: 100%;
-}
-
-.bottomPicture {
-
-    border: solid 1px yellow;
-
-}
-
-a{
-    text-decoration:none;
-    color: white;
-}
+       font-family: 'Ropa Sans', sans-serif;
+   }
+   /*_________________Main_____________________*/
+   
+   .topMain {
+       display: flex;
+       flex-direction: column;
+       border: solid 1px red;
+   }
+   
+   main img {
+       width: 100%;
+   }
+   
+   #text {
+       color: white;
+       padding: 1rem;
+       background-color: rgb(80, 80, 80);
+       font-family: 'Open Sans Condensed', sans-serif;
+       font-size: 1.2rem;
+   }
+   
+   .picturesGrid {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       order: solid 1px green;
+       width: 100%;
+   }
+   
+   .bottomPicture {
+       border: solid 1px yellow;
+   }
+   
+   a {
+       text-decoration: none;
+       color: white;
+   }
