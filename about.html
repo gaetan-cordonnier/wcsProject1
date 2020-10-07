@@ -16,20 +16,16 @@
     <link rel="stylesheet" href="about.css">
 </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
-                <li><a id="LinkAbout" href="about.html">About</a></li>
-                <li><a id="LinkContact" href="contact.html">Contact</a></li>
-            </ul>
-
-        </nav>
-    </header>
+<header class="header">
+    <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo" class="logo"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+    <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
+    <li><a id="LinkAbout" href="about.html" class="a_current">About</a></li>
+    <li><a id="LinkContact"  href="contact.html">Contact</a></li>
+</ul>
+</header>
 
 
 

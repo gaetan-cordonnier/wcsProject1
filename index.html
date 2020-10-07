@@ -9,6 +9,7 @@
     <meta name="description" content="Photographer Portfolio">
     <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/twitter/259/camera_1f4f7.png">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
@@ -16,25 +17,22 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
-                <li><a id="LinkAbout" href="about.html">About</a></li>
-                <li><a id="LinkContact" href="contact.html">Contact</a></li>
-            </ul>
-
-        </nav>
+    <header class="header">
+            <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo" class="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
+          <li><a id="LinkAbout" href="about.html">About</a></li>
+          <li><a id="LinkContact"  href="contact.html">Contact</a></li>
+        </ul>
     </header>
 
     <main>
         <div class="topMain">
             <img src="public/main.jpg" class="topPicture" alt="Photo d'architerture de J-L Seize">
 
-            <p id="text">"Mon travail se concentre sur la vie dans les mégapoles. Plusieurs de mes projets documentent l'architecture et la culture vernaculaire des métropoles. Aillant a grandi au canada, en europe et aux états-unis, étudié à uc berkeley et à l'école folkwang avec Otto Steinert à essen, allemagne. J'ai déménagé à hong kong en 1994 où j'ai pu travailler pendant 8 ans comme photographe contractuel pour le magazine stern. depuis 2001, je me concentre sur mes propres projets, dont beaucoup ont été publiés sous forme de livres."</p>
+            <p id="text">"Photographier c’est mettre sur la même ligne de mire la tête, l’oeil et le coeur."</p>
         </div>
             <div class="picturesGrid">  
                 <img src="public/picture1.jpg" class= bottomPicture alt="Exemple de photos de J-L Seize ">
@@ -59,7 +57,27 @@
         </div>
 
     </footer>
-
+    <style>
+        .icons {
+        animation-name: slideIn;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    
+    @keyframes slideIn {
+        0% {
+          transform: translate(0px, 0px);
+        }
+        50% {
+          transform: translate(0px, 100px);
+        }
+        100% {
+          transform: translate(0px, 0px);
+        }
+      }
+    </style>
+    
 </body>
 
 </html>

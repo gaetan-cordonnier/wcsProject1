@@ -30,6 +30,10 @@ footer {
     justify-content: space-around;
 }
 
+.icons:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (min-width: 300px) and (max-width: 740px) {
     footer {
         position: fixed;
@@ -42,4 +46,3 @@ footer {
         width: 35px;
         padding: 0px 45px 0px 45px;
     }
-}
