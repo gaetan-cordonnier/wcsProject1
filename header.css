@@ -45,7 +45,6 @@
       padding: 28px 20px;
       position: relative;
       user-select: none;
-      border: solid 1px rgb(72, 255, 0);
   }
   
   .header .menu-icon .navicon {
