@@ -1,77 +1,95 @@
 .bg-contact {
-    background-image: url('./public/building-1089861_1920.jpg');
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url("./public/building-1089861_1920.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact_form {
-    width: 70%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    /*border: 1px solid red;*/
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid red;*/
 }
 
 .section-inputs {
-    height: 70%;
-    display: flex;
-    /*border: 1px solid blue;*/
-    justify-content: center;
-    padding-top: 30px;
-    margin-top: 30px;
+  height: 70%;
+  display: flex;
+  /*border: 1px solid blue;*/
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .section-form {
-    /*border: 1px solid green;*/
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  /*border: 1px solid green;*/
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .input_form {
-    margin: 20px;
-    width: 70%;
-    padding: 15px;
-    margin-left: 50px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 5px;
+  margin: 20px;
+  width: 70%;
+  padding: 15px;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
 }
 
 .textarea {
-    height: 200px;
+  height: 200px;
 }
 
 .button-form {
-    width: 150px;
-    padding: 15px;
-    background-color: black;
-    border: 0;
-    color: white;
-    border-radius: 5px;
+  width: 150px;
+  padding: 15px;
+  background-color: black;
+  border: 0;
+  color: white;
+  border-radius: 5px;
 }
 
 .contact-button {
-    /*border: 1px solid yellow;*/
-    display: flex;
-    justify-content: center;
+  /*border: 1px solid yellow;*/
+  display: flex;
+  justify-content: center;
 }
 
 .required {
-    display: flex;
-    justify-content: flex-end;
-    color: grey;
-    font-style: italic;
-    font-size: 20px;
-    margin-right: 200px;
+  display: flex;
+  justify-content: flex-end;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+  margin-right: 100px;
 }
 
 .button-form:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .required {
+    color: darkgray;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 70px;
+  }
+
+  .section-inputs {
+    flex-direction: column;
+  }
+
+  .input_form {
+    width: 150%;
+  }
 }
