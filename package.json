@@ -1,0 +1,22 @@
+{
+  "name": "lightbox",
+  "version": "1.0.0",
+  "description": "Begin Of Website Photographer Ajout du dossier public",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaetan-cordonnier/wcsProject1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaetan-cordonnier/wcsProject1/issues"
+  },
+  "homepage": "https://github.com/gaetan-cordonnier/wcsProject1#readme",
+  "dependencies": {
+    "lightbox2": "^2.11.3"
+  }
+}
