@@ -1,4 +1,4 @@
-.bg-contact{
+.bg-contact {
     background-image: url('./public/building-1089861_1920.jpg');
     background-repeat: no-repeat;
     position: absolute;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-#contact_form{
+#contact_form {
     width: 70%;
     height: 70%;
     display: flex;
@@ -17,7 +17,7 @@
     /*border: 1px solid red;*/
 }
 
-.section-inputs{
+.section-inputs {
     height: 70%;
     display: flex;
     /*border: 1px solid blue;*/
@@ -26,7 +26,7 @@
     margin-top: 30px;
 }
 
-.section-form{
+.section-form {
     /*border: 1px solid green;*/
     width: 50%;
     display: flex;
@@ -34,7 +34,7 @@
     flex-direction: column;
 }
 
-.input_form{
+.input_form {
     margin: 20px;
     width: 70%;
     padding: 15px;
@@ -43,11 +43,11 @@
     border-radius: 5px;
 }
 
-.textarea{
+.textarea {
     height: 200px;
 }
 
-.button-form{
+.button-form {
     width: 150px;
     padding: 15px;
     background-color: black;
@@ -56,13 +56,13 @@
     border-radius: 5px;
 }
 
-.contact-button{
+.contact-button {
     /*border: 1px solid yellow;*/
     display: flex;
     justify-content: center;
 }
 
-.required{
+.required {
     display: flex;
     justify-content: flex-end;
     color: grey;
@@ -71,7 +71,7 @@
     margin-right: 200px;
 }
 
-.button-form:hover{
+.button-form:hover {
     background-color: white;
     color: black;
 }

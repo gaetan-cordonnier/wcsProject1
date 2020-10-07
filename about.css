@@ -9,6 +9,10 @@ main {
     height: 93vh;
 }
 
+.bloc-container img {
+    object-fit: cover;
+}
+
 
 /* PORTRAIT */
 
@@ -62,8 +66,6 @@ main div img {
     height: 100%;
 }
 
-p {}
-
 @media screen and (min-width: 200px) and (max-width: 740px) {
     .bloc-container {
         display: flex;
@@ -71,7 +73,7 @@ p {}
     }
     p {
         color: white;
-        font-size: larger;
+        font-size: 0.8em;
         text-align: justify;
         line-height: 3vh;
         padding: 3%;
