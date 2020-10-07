@@ -65,7 +65,7 @@
 .required {
   display: flex;
   justify-content: flex-end;
-  color: grey;
+  color: darkgray;
   font-style: italic;
   font-size: 20px;
   margin-right: 100px;
