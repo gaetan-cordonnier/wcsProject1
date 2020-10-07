@@ -4,12 +4,6 @@
   width: 40px;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 footer {
   position: fixed;
   bottom: 0px;
