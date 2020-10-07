@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jean Louis Seize - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/twitter/259/camera_1f4f7.png">
@@ -13,52 +13,82 @@
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <header>
-      <div class="logo">
-          <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo"></a>
-      </div>
-      <nav>
-          <ul>
-              <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
-              <li><a id="LinkAbout" href="about.html">About</a></li>
-              <li><a id="LinkContact" href="contact.html">Contact</a></li>
-          </ul>
-
-      </nav>
-    </header>
+  <header class="header">
+    <a href="index.html"><img src="public/jlsLogo.png" alt="Jean-Louis Seize Logo" class="logo"></a>
+<input class="menu-btn" type="checkbox" id="menu-btn" />
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<ul class="menu">
+  <li><a id="LinkPortfolio" href="portfolio.html">Portfolio</a></li>
+  <li><a id="LinkAbout" href="about.html">About</a></li>
+  <li><a id="LinkContact"  href="contact.html" class="a_current">Contact</a></li>
+</ul>
+</header>
     <main class="bg-contact">
       <form method="post" id="contact_form">
         <div class="section-inputs">
           <div class="section-form">
-          <span id="msg_erreur"></span>
-          <input type="text" name="name" placeholder="Name *" class="input_form" required/>
-          <input type="text" name="lastname" placeholder="lastname *" class="input_form" required/>
-          <input type="email" name="email" placeholder="Email *" class="input_form" required/>
+            <span id="msg_erreur"></span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name *"
+              class="input_form"
+              required
+            />
+            <input
+              type="text"
+              name="lastname"
+              placeholder="lastname *"
+              class="input_form"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email *"
+              class="input_form"
+              required
+            />
+          </div>
+          <div class="section-form">
+            <textarea
+              name="message"
+              placeholder="Message *"
+              class="input_form textarea"
+              required
+            ></textarea>
+          </div>
         </div>
-        <div class="section-form">
-          <textarea  name="message" placeholder="Message *" class="input_form textarea" required></textarea>
+        <span class="required">Required fields (*)</span>
+        <div class="contact-button">
+          <input type="submit" name="nom" value="Send" class="button-form" />
         </div>
-        </div>
-          <span class="required">Required fields (*)</span>
-          <div class="contact-button">
-          <input type="submit" name="nom" value="Send" class="button-form">
-        </div>
-        
       </form>
     </main>
     <footer>
-        <div class = "iconcontainer">
-          <a href="https://www.facebook.com/" title="" id=""  target="">
-            <img src="iconesfooter/pngwing.com-5.png" class="icons" alt="facebook"/>
-          </a>
-          <a href="https://www.instagram.com/" title="" id=""  target="">
-            <img src="iconesfooter/pngwing.com-6.png" class="icons" alt="instagram"/>
-          </a>
-          <a href="https://twitter.com/" title="" id="" target="">
-            <img src="iconesfooter/pngwing.com-3.png" class="icons"  alt="twitter"/>
-          </a>
-        </div>
-     
+      <div class="iconcontainer">
+        <a href="https://www.facebook.com/" title="" id="" target="">
+          <img
+            src="iconesfooter/pngwing.com-5.png"
+            class="icons"
+            alt="facebook"
+          />
+        </a>
+        <a href="https://www.instagram.com/" title="" id="" target="">
+          <img
+            src="iconesfooter/pngwing.com-6.png"
+            class="icons"
+            alt="instagram"
+          />
+        </a>
+        <a href="https://twitter.com/" title="" id="" target="">
+          <img
+            src="iconesfooter/pngwing.com-3.png"
+            class="icons"
+            alt="twitter"
+          />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
