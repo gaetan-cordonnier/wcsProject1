@@ -1,17 +1,24 @@
-   body {
+body {
     font-family: 'Ropa Sans', sans-serif;
 }
 
     /*_________________Main_____________________*/
-.topMain {
-    display: flex;
-    flex-direction: column;
+
+main{
+    padding-bottom: 7vh;
 }
 
 main img {
     width: 100%;
 }
 
+.topMain {
+    display: flex;
+}
+
+main p {
+
+}
 
 #text {
     font-family: 'Nothing You Could Do', cursive;
