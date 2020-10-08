@@ -39,12 +39,12 @@
   /* menu icon */
   
   .header .menu-icon {
-    cursor: pointer;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-    border: solid 1px rgb(72, 255, 0);
+      cursor: pointer;
+      float: right;
+      padding: 28px 20px;
+      position: relative;
+      user-select: none;
+      border: solid 1px rgb(72, 255, 0);
   }
   
   .header .menu-icon .navicon {
@@ -103,36 +103,6 @@
   /*------------- Quand l'écran est au dessus de 768px----------------*/
   
   @media (min-width: 48em) {
-<<<<<<< HEAD
-    .header li {
-      float: right;
-    }
-    
-    .header li a {
-      padding: 20px 30px;
-      
-    }
-
-    .header .a_current {
-      font-size: 2em;
-   }
-
-    .header .menu {
-      clear: none;
-      float: left;
-      max-height: none;
-      display: flex;
-      align-items: center;
-    }
-
-    .header .menu-icon {
-      display: none;
-    }
-  }
-
-/*------------- Quand l'écran est en dessous de 768px----------------*/
-
-=======
       .header li {
           float: right;
       }
@@ -155,7 +125,6 @@
   }
   /*------------- Quand l'écran est en dessous de 768px----------------*/
   
->>>>>>> 92a1bf669f5fe75430136d4c2e66af6ff9389755
   @media (max-width: 48em) {
       .header li a:hover,
       .header .menu-btn:hover {
