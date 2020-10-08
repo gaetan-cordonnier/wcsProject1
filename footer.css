@@ -1,43 +1,43 @@
 /*________________Footer____________________*/
 
 .icons {
-    width: 40px;
+  width: 40px;
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  margin-top: auto;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.iconcontainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 300px) and (max-width: 740px) {
+  footer {
     position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 3;
-    margin-top: auto;
     background-color: white;
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-}
-
-.iconcontainer {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.icons:hover {
-    transform: scale(1.1);
-}
-
-@media screen and (min-width: 300px) and (max-width: 740px) {
-    footer {
-        position: fixed;
-        background-color: white;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-    }
-    .icons {
-        width: 35px;
-        padding: 0px 45px 0px 45px;
-    }
+  }
+  .icons {
+    width: 35px;
+    padding: 0px 45px 0px 45px;
+  }
 }
