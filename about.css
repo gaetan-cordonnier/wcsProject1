@@ -28,7 +28,7 @@ main {
         font-size: x-large;
         line-height: 5vh;
         text-overflow: ellipsis;
-        padding: 11% 4% 4% 4%;
+        padding: 8% 4% 4% 4%;
     }
     /* PHOTO 1 */
     .bloc-container div:nth-child(3) {
