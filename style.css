@@ -12,10 +12,10 @@ main img {
   width: 100%;
 }
 
+
 .topMain {
   display: flex;
 }
-
 #text {
   font-family: "Nothing You Could Do", cursive;
   color: white;
@@ -38,3 +38,4 @@ main img {
     grid-template-columns: 1fr;
   }
 }
+
