@@ -93,3 +93,10 @@
     width: 150%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .input_form {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
