@@ -14,7 +14,7 @@ Design of a portfolio website for photographer.
 
 ## TECHNICAL INFORMATIONS:
 
-. HTML 5
+. HTML 5 <br>
 . CSS 3
 
 10/09/2020 Stop Coding.
