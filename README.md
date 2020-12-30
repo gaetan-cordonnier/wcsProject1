@@ -3,10 +3,10 @@
 
 ## CREATED BY TEAM:
 
-Amélie MACQUET - GitHub Login -> https://github.com/AmelMac/
-Gaetan CORDONNIER - GitHub Login -> https://github.com/gaetan-cordonnier
-Jeremy LEROY
-Sarah SAHRAOUI - GitHub Login -> https://github.com/Sarahshr
+Amélie MACQUET - GitHub Login -> https://github.com/AmelMac/ <br>
+Gaetan CORDONNIER - GitHub Login -> https://github.com/gaetan-cordonnier <br>
+Jeremy LEROY <br>
+Sarah SAHRAOUI - GitHub Login -> https://github.com/Sarahshr <br>
 
 ## DESCRIPTION:
 
