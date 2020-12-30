@@ -1,17 +1,20 @@
-# wcsProject1
-Begin Of Website Photographer
-Ajout du dossier public
+# WILD CODE SCHOOL Project 1 (09/11/2020)
 
 
-Burger Menu (HTML & CSS)
+## CREATED BY TEAM:
 
-Burger menu HTML CSS Only 1 https://codepen.io/erikterwan/pen/EVzeRP
+Amélie MACQUET - GitHub Login -> https://github.com/AmelMac/
+Gaetan CORDONNIER - GitHub Login -> https://github.com/gaetan-cordonnier
+Jeremy LEROY
+Sarah SAHRAOUI - GitHub Login -> https://github.com/Sarahshr
 
-Burger menu HTML CSS Only 2 https://codepen.io/mutedblues/pen/MmPNPG
+## DESCRIPTION:
 
-Burger menu HTML CSS Only 1
-https://codepen.io/erikterwan/pen/EVzeRP
+Design of a portfolio website for photographer.
 
-Burger menu HTML CSS Only 2
-https://codepen.io/mutedblues/pen/MmPNPG
+## TECHNICAL INFORMATIONS:
 
+. HTML 5
+. CSS 3
+
+10/09/2020 Stop Coding.
